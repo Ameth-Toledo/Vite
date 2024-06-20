@@ -1,0 +1,34 @@
+.menu-container {
+    position: relative;
+}
+
+.menu-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: black;
+    border: 1px solid #ccc;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.dropdown li {
+    padding: 16px 36px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdown li:hover {
+    background-color: #333;
+}
